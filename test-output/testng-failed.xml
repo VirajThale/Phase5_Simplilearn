@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <parameter name="EmailID" value="param-val-not-found"/>
-  <parameter name="Last" value="param-val-not-found"/>
-  <parameter name="CPassword" value="param-val-not-found"/>
-  <parameter name="Address" value="param-val-not-found"/>
-  <parameter name="First" value="param-val-not-found"/>
-  <parameter name="Age" value="param-val-not-found"/>
-  <parameter name="Password" value="param-val-not-found"/>
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="EmailID" value="virajthale12@gmail.com"/>
+    <parameter name="Last" value="Thale"/>
+    <parameter name="CPassword" value="12345"/>
+    <parameter name="Address" value="Alibag"/>
+    <parameter name="First" value="Viraj"/>
+    <parameter name="Age" value="24"/>
+    <parameter name="Password" value="12345"/>
     <classes>
       <class name="test.SignupTest">
         <methods>
@@ -17,6 +17,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- test.SignupTest -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="Signin" invocation-numbers="0"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

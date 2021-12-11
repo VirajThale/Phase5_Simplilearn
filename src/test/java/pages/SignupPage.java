@@ -9,6 +9,10 @@ public class SignupPage extends DriverClass {
 	public void signup(String CEmailID,String CPassword, String CPassword2, String First,String Last,String Age,String Address) 
 	{
 		
+		
+		WebElement mkmem = driver.findElement(By.xpath("//a[@href='signup']"));
+		mkmem.click();
+		
 		WebElement cemail = driver.findElement(By.xpath("//input[@name='email_id']"));
 		cemail.sendKeys(CEmailID);
 		WebElement cpwd = driver.findElement(By.xpath("//input[@name='pwd']"));
@@ -18,17 +22,19 @@ public class SignupPage extends DriverClass {
 		WebElement fname = driver.findElement(By.xpath("//input[@name='fname']"));
 		fname.sendKeys(First);
 		WebElement lname = driver.findElement(By.xpath("//input[@name='lname']"));
-		fname.sendKeys(Last);
-		
+		lname.sendKeys(Last);	
 		WebElement age = driver.findElement(By.xpath("//input[@name='age']"));
 		age.sendKeys(Age);
-		
 		WebElement address = driver.findElement(By.xpath("//input[@name='age']"));
 		address.sendKeys(Address);
 		
-		
 		WebElement signupB = driver.findElement(By.xpath("//button[text()='Signup']"));
 		signupB.click();
+		
+		WebElement back = driver.findElement(By.xpath("//a[text()='Login to continue shopping']"));
+		back.click();
+		
+		
 		}
 	
 }

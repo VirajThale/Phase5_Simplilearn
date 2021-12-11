@@ -11,7 +11,7 @@ public class LoginPage extends DriverClass {
 	
 	public void signin(String EmailID, String Password) 
 	{
-		//Login Process
+		//Login Proces
 		
 		WebElement email_id = driver.findElement(By.xpath("//input[@name='email_id']"));
 		email_id.sendKeys(EmailID);

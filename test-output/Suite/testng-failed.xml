@@ -13,11 +13,15 @@
       <class name="test.SignupTest">
         <methods>
           <include name="Signup" invocation-numbers="0"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- test.SignupTest -->
       <class name="test.LoginTest">
         <methods>
           <include name="Signin" invocation-numbers="0"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- test.LoginTest -->
     </classes>
