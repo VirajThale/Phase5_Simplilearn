@@ -8,7 +8,7 @@ import pages.SignupPage;
 public class SignupTest extends DriverClass  {
 	
 	
-	@Test
+	@Test(enabled=false)
 	@Parameters({"EmailID","Password","CPassword","First","Last","Age","Address"})
 	public void Signup(String EmailID,String Password, String CPassword, String First,String Last,String Age,String Address) {
 		

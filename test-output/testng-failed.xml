@@ -10,20 +10,13 @@
     <parameter name="Age" value="24"/>
     <parameter name="Password" value="12345"/>
     <classes>
-      <class name="test.SignupTest">
+      <class name="test.PaymentTest">
         <methods>
-          <include name="Signup" invocation-numbers="0"/>
+          <include name="payment"/>
           <include name="SetUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- test.SignupTest -->
-      <class name="test.LoginTest">
-        <methods>
-          <include name="Signin" invocation-numbers="0"/>
-          <include name="SetUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- test.LoginTest -->
+      </class> <!-- test.PaymentTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
