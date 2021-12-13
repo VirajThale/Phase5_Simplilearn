@@ -12,9 +12,8 @@ public class PaymentTest extends DriverClass {
 	@Test
 	public void payment() {
 		
-		pay.assert_Checkout_Page();
-		pay.payment_gateway();	
-		pay.assert_payment_gateway();
+		
+		pay.completepurchase();
 	}
 
 

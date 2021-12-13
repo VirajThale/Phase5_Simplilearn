@@ -22,7 +22,7 @@ public void SetUp()
 	driver = new ChromeDriver();
 	driver.get(appURL);
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
+	driver.manage().timeouts().implicitlyWait(500000, TimeUnit.MILLISECONDS);
 }
 
 

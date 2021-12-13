@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="9" total="13" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2555" started-at="2021-12-11T21:16:10Z" finished-at="2021-12-11T21:16:12Z">
+  <suite name="Suite" duration-ms="2584" started-at="2021-12-13T08:56:10Z" finished-at="2021-12-13T08:56:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2555" started-at="2021-12-11T21:16:10Z" finished-at="2021-12-11T21:16:12Z">
+    <test name="Test" duration-ms="2584" started-at="2021-12-13T08:56:10Z" finished-at="2021-12-13T08:56:12Z">
       <class name="test.PaymentTest">
-        <test-method status="PASS" signature="payment()[pri:0, instance:test.PaymentTest@8e24743]" name="payment" duration-ms="112" started-at="2021-12-11T21:16:12Z" finished-at="2021-12-11T21:16:12Z">
+        <test-method status="PASS" signature="payment()[pri:0, instance:test.PaymentTest@cb0ed20]" name="payment" duration-ms="146" started-at="2021-12-13T08:56:12Z" finished-at="2021-12-13T08:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment -->
       </class> <!-- test.PaymentTest -->
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="Signin(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@7a30d1e6]" name="Signin" duration-ms="313" started-at="2021-12-11T21:16:11Z" finished-at="2021-12-11T21:16:11Z">
+        <test-method status="PASS" signature="Signin(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@553a3d88]" name="Signin" duration-ms="282" started-at="2021-12-13T08:56:11Z" finished-at="2021-12-13T08:56:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[virajthale12@gmail.com]]>
+                <![CDATA[virajthale11@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -31,27 +31,27 @@
         </test-method> <!-- Signin -->
       </class> <!-- test.LoginTest -->
       <class name="test.SignupTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.SignupTest@553a3d88]" name="SetUp" is-config="true" duration-ms="1028" started-at="2021-12-11T21:16:10Z" finished-at="2021-12-11T21:16:11Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.SignupTest@64f6106c]" name="SetUp" is-config="true" duration-ms="961" started-at="2021-12-13T08:56:10Z" finished-at="2021-12-13T08:56:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignupTest@553a3d88]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-12-11T21:16:12Z" finished-at="2021-12-11T21:16:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignupTest@64f6106c]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-12-13T08:56:12Z" finished-at="2021-12-13T08:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.SignupTest -->
-      <class name="test.ChekcOutTest">
-        <test-method status="PASS" signature="checkout_demo()[pri:0, instance:test.ChekcOutTest@cb0ed20]" name="checkout_demo" duration-ms="209" started-at="2021-12-11T21:16:12Z" finished-at="2021-12-11T21:16:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkout_demo -->
-      </class> <!-- test.ChekcOutTest -->
       <class name="test.HomeTest">
-        <test-method status="PASS" signature="add_cart()[pri:0, instance:test.HomeTest@5891e32e]" name="add_cart" duration-ms="863" started-at="2021-12-11T21:16:11Z" finished-at="2021-12-11T21:16:12Z">
+        <test-method status="PASS" signature="add_cart()[pri:0, instance:test.HomeTest@7a30d1e6]" name="add_cart" duration-ms="919" started-at="2021-12-13T08:56:11Z" finished-at="2021-12-13T08:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_cart -->
       </class> <!-- test.HomeTest -->
+      <class name="test.ChekcOutTest">
+        <test-method status="PASS" signature="checkout_demo()[pri:0, instance:test.ChekcOutTest@5891e32e]" name="checkout_demo" duration-ms="255" started-at="2021-12-13T08:56:12Z" finished-at="2021-12-13T08:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_demo -->
+      </class> <!-- test.ChekcOutTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="EmailID" value="virajthale12@gmail.com"/>
+    <parameter name="EmailID" value="virajthale11@gmail.com"/>
     <parameter name="Last" value="Thale"/>
     <parameter name="CPassword" value="12345"/>
     <parameter name="Address" value="Alibag"/>

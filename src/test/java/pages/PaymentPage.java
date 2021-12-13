@@ -8,27 +8,22 @@ import test.DriverClass;
 
 public class PaymentPage extends DriverClass {
 	
-	public void payment_gateway() {
+	
+
+	public void completepurchase() {
 		
-		WebElement cart_list = driver.findElement(By.xpath("//a[@href='gateway']"));
-		cart_list.click();
+		WebElement purchase = driver.findElement(By.xpath("//a[@href='completepurchase']"));
+		purchase.click();
 		
-	}
-	public void assert_Checkout_Page() {
-		WebElement exptitle = driver.findElement(By.xpath("//h3[text()=' SPORTY SHOES - CHECKOUT ']"));
-		String expected =exptitle.getText();
-		String actual="SPORTY SHOES - CHECKOUT";
+		WebElement title = driver.findElement(By.xpath("//a[@href='memberpurchases']"));
+		String actual = title.getText();
+		System.out.println(actual);
+		String expected ="Your Orders";
 		Assert.assertEquals(actual, expected);
 		
-		
+
 	}
-	public void assert_payment_gateway() {
-		WebElement exptitle = driver.findElement(By.xpath("//h3[text()=' SPORTY SHOES - PAYMENT GATEWAY ']"));
-		String expected= exptitle.getText();
-		String actual = "SPORTY SHOES - PAYMENT GATEWAY";
-		Assert.assertEquals(actual, expected);
-		
-	}
+	
 	
 	
 
