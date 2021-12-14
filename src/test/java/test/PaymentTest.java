@@ -14,6 +14,7 @@ public class PaymentTest extends DriverClass {
 		
 		
 		pay.completepurchase();
+		pay.ordercomplete();
 	}
 
 

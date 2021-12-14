@@ -21,9 +21,27 @@ public class PaymentPage extends DriverClass {
 		String expected ="Your Orders";
 		Assert.assertEquals(actual, expected);
 		
+		if(actual.contains(expected)) {
+			
+			WebElement yourorder=driver.findElement(By.xpath("//a[@href='memberpurchases']"));
+			yourorder.click();
+			
+		}
+		else {
+			System.out.println("Your Test-Failed@PaymentPage");
+		}
+		
+		
 
 	}
-	
+		public void ordercomplete() {
+			WebElement title = driver.findElement(By.xpath("//h3[text()=' SPORTY SHOES - YOUR ORDERS ']"));
+			String actual = title.getText();
+			String expected = "SPORTY SHOES - YOUR ORDERS"; 
+					
+			Assert.assertEquals(actual, expected);
+			
+		}
 	
 	
 

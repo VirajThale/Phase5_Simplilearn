@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="9" total="13" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2584" started-at="2021-12-13T08:56:10Z" finished-at="2021-12-13T08:56:12Z">
+  <suite name="Suite" duration-ms="3009" started-at="2021-12-14T19:34:36Z" finished-at="2021-12-14T19:34:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2584" started-at="2021-12-13T08:56:10Z" finished-at="2021-12-13T08:56:12Z">
+    <test name="Test" duration-ms="3009" started-at="2021-12-14T19:34:36Z" finished-at="2021-12-14T19:34:39Z">
       <class name="test.PaymentTest">
-        <test-method status="PASS" signature="payment()[pri:0, instance:test.PaymentTest@cb0ed20]" name="payment" duration-ms="146" started-at="2021-12-13T08:56:12Z" finished-at="2021-12-13T08:56:12Z">
+        <test-method status="PASS" signature="payment()[pri:0, instance:test.PaymentTest@cb0ed20]" name="payment" duration-ms="398" started-at="2021-12-14T19:34:39Z" finished-at="2021-12-14T19:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment -->
       </class> <!-- test.PaymentTest -->
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="Signin(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@553a3d88]" name="Signin" duration-ms="282" started-at="2021-12-13T08:56:11Z" finished-at="2021-12-13T08:56:11Z">
+        <test-method status="PASS" signature="Signin(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@553a3d88]" name="Signin" duration-ms="300" started-at="2021-12-14T19:34:37Z" finished-at="2021-12-14T19:34:38Z">
           <params>
             <param index="0">
               <value>
@@ -31,23 +31,23 @@
         </test-method> <!-- Signin -->
       </class> <!-- test.LoginTest -->
       <class name="test.SignupTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.SignupTest@64f6106c]" name="SetUp" is-config="true" duration-ms="961" started-at="2021-12-13T08:56:10Z" finished-at="2021-12-13T08:56:11Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.SignupTest@64f6106c]" name="SetUp" is-config="true" duration-ms="1102" started-at="2021-12-14T19:34:36Z" finished-at="2021-12-14T19:34:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignupTest@64f6106c]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-12-13T08:56:12Z" finished-at="2021-12-13T08:56:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignupTest@64f6106c]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-12-14T19:34:39Z" finished-at="2021-12-14T19:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.SignupTest -->
       <class name="test.HomeTest">
-        <test-method status="PASS" signature="add_cart()[pri:0, instance:test.HomeTest@7a30d1e6]" name="add_cart" duration-ms="919" started-at="2021-12-13T08:56:11Z" finished-at="2021-12-13T08:56:12Z">
+        <test-method status="PASS" signature="add_cart()[pri:0, instance:test.HomeTest@7a30d1e6]" name="add_cart" duration-ms="866" started-at="2021-12-14T19:34:38Z" finished-at="2021-12-14T19:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_cart -->
       </class> <!-- test.HomeTest -->
       <class name="test.ChekcOutTest">
-        <test-method status="PASS" signature="checkout_demo()[pri:0, instance:test.ChekcOutTest@5891e32e]" name="checkout_demo" duration-ms="255" started-at="2021-12-13T08:56:12Z" finished-at="2021-12-13T08:56:12Z">
+        <test-method status="PASS" signature="checkout_demo()[pri:0, instance:test.ChekcOutTest@5891e32e]" name="checkout_demo" duration-ms="319" started-at="2021-12-14T19:34:39Z" finished-at="2021-12-14T19:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout_demo -->
